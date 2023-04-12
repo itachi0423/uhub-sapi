@@ -101,10 +101,10 @@
 						</properties>
 					</cloudHubDeployment>
 					<sharedLibraries>
-						<sharedLibrary>
+						<!-- <sharedLibrary>
 							<groupId>com.mycompany</groupId>
 							<artifactId>jdbc-oracle</artifactId>
-						</sharedLibrary>
+						</sharedLibrary> -->
 					</sharedLibraries>
 				</configuration>
 			</plugin>
@@ -137,9 +137,9 @@
 			<classifier>mule-plugin</classifier>
 		</dependency>
 		<dependency>
-			<groupId>com.mycompany</groupId>
-			<artifactId>jdbc-oracle</artifactId>
-			<version>0.1</version>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdb6</artifactId>
+			<version>11.2.0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mule.connectors</groupId>
